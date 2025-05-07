@@ -12,7 +12,7 @@ $intro_alice_bg_url = $intro_alice_bg_id ? wp_get_attachment_image_url( $intro_a
 		<div class="row">
 			<div class="col-md-12">
 				<img src="<?php echo esc_url( $intro_alice_image_url ?: get_template_directory_uri() . '/assets/img/profile-pic.jpg' ); ?>"
-					alt="<?php echo esc_attr( $intro_alice_name ); ?>" />
+					alt="<?php echo esc_attr( $alice_name ); ?>" />
 			</div>
 
 			<div class="col-md-12">
