@@ -29,7 +29,7 @@ function submit_contact_form_callback() {
 		wp_die();
 	}
 
-	$to = 'mamikonars@email.com';
+	$to = 'mamikonars@gmail.com';
 	$subject = __( 'New Contact Request', 'alice' );
 	$body = "
         <html><body>

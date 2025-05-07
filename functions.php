@@ -1,6 +1,7 @@
 <?php
 
 require_once get_template_directory() . '/inc/enqueue-scripts.php';
+require_once get_template_directory() . '/inc/ajax-form.php';
 require_once get_template_directory() . '/inc/carbon/carbon-fields-options.php';
 require_once get_template_directory() . '/inc/carbon/carbon-fields-intro.php';
 require_once get_template_directory() . '/inc/carbon/carbon-fields-about.php';
